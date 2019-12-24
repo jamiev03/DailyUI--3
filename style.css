@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-family: sans-serif;
+}
 body {
     background-image: url(img/pic1.jpg);
     background-size: cover;
@@ -20,4 +23,19 @@ nav {
 nav a {
     text-decoration: none;
     margin-right: 15px;
+    color: #000000;
+}
+.nav-link .fab {
+    font-size: 30px;
+    margin: 0px 10px 0 20px;
+    color: rgb(212, 6, 6);
+}
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+input {
+   border: none; 
+   border-left: 1px solid lightgray;
+   height: 30px;
 }
