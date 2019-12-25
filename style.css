@@ -11,6 +11,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     padding-bottom: 27rem;
+
 }
 nav {
     background: white;
@@ -38,4 +39,31 @@ input {
    border: none; 
    border-left: 1px solid lightgray;
    height: 30px;
+}
+.content-box {
+    top: 100px;
+    left: 420px;
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    background: orange;
+}
+h1 {
+    font-size: 60px;
+    margin: 40px 30px 30px 30px;
+    line-height: 1.3em;
+    color: white;
+}
+p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 40px 30px 30px 30px;
+}
+button {
+    font-size: 18px;
+    border: none;
+    background-color: rgb(1, 156, 156);
+    color: white;
+    padding: 10px 40px;
 }
